@@ -9,7 +9,7 @@ These efforts are part of a collaboration between [MuckRock’s](https://www.mu
 First, join [the MuckRock Slack](https://www.muckrock.com/slack/) and find your way to the #public-data-liberation-project channel if you're not already there. That's where Data Liberation Project volunteers and grass roots investigators can find each other, coordinate efforts and share ideas. 
 
 ### 1. Extracting and organizing the data 
-[Through public records requests](https://www.muckrock.com/foi/mylist/?q=&status=&tags=127887&has_embargo=&has_crowdfund=&minimum_pages=&date_range_min=&date_range_max=&file_types=&search_title=), we've recently obtained banned book lists from 12 state prison systems. The challenge is that these come in a variety of formats: XML, PDF, Excel, CSV and more. That's where you come in. 
+[Through public records requests](https://www.muckrock.com/foi/mylist/?q=&status=&tags=127887&has_embargo=&has_crowdfund=&minimum_pages=&date_range_min=&date_range_max=&file_types=&search_title=), we've recently obtained banned book lists from 17 state prison systems. The challenge is that these come in a variety of formats: XML, PDF, Excel, CSV and more. That's where you come in. 
 
 - Start by [forking this repository](https://palewi.re/docs/first-pull-request/) so that you can open a pull request later 
 - Pick a state in the `data` folder that you'd like to tackle and add a file like `clean_state_name.py` to the `etl` folder. Jump into [the Slack thread about this project](https://muckrock.slack.com/archives/C07NFFUFA4C/p1773773147623749) and let us know what state you're working on. Feel free to use whichever coding language you're most comfortable with to extract the data. If the data is a PDF, you may want to try some of [the table extraction tools on DocumentCloud](https://www.documentcloud.org/add-ons/MuckRock/azure-table-extractor/). If you haven't used DocumentCloud, you can join MuckRock's DLP organization on MuckRock and DocumentCloud by asking in the Slack channel. Organize the data using the format below:
@@ -49,23 +49,13 @@ Are you more interested in filing requests than cleaning and analyzing data? You
 - Michigan
 - New Jersey	
 - Virginia
-
-#### States we've requested from but haven't yet received 
+- Wisconsin
 - Oregon
 - Missouri 
 - North Carolina
 - Rhode Island
 - South Carolina
+
+#### States we've requested from but haven't yet received 
 - Arizona
-- Wisconsin 
 
-## State-specific notes
-
-#### Kansas 
-The pdf we received included 30 pages of titles and 30 pages of reasons for banning books and dates, but I only extracted the titles. I wasn't sure if the separate pages of reasons would line up in order to the titles. It'd be worth going back to the state and asking for the actual data, and not pdf in this case. - @DillonBergin 
-
-#### Texas
-There are two different types of rejection reasons and I'm unsure what the difference is, so I left them separate rather than combine them. - @DillonBergin 
-
-### Michigan
-Used DocumentCloud's Azure table extractor to OCR and extract the tables first - @DillonBergin 
