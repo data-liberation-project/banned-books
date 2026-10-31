@@ -1,0 +1,4 @@
+# Generated files used during Missouri PDF reconstruction.
+# Keep intermediates on disk for review, but do not commit them.
+*
+!.gitignore
