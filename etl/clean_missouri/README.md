@@ -187,7 +187,7 @@ results should be compared to the source if they change.
 | Source PDF pages | 226 |
 | Structured and cleaned records | 5,138 |
 | Flagged records | 36 |
-| Records with distinct, pipe-separated reason entries | 2,146 |
+| Records with distinct, pipe-separated reason entries | 5,138 |
 | Records with a nonblank parsed date | 5,133 |
 
 The 36 flagged records include 28 rows on pages 225–226 with an unusual
