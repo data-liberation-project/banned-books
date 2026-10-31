@@ -2,8 +2,7 @@
 
 This directory contains the Python pipeline for converting Missouri's
 **Censorship Log** (a PDF obtained through a public-records request) into the
-five-column format used by the [Data Liberation Project's banned-books
-repository](https://github.com/data-liberation-project/banned-books).
+requested five-column format.
 
 The source is a 226-page, landscape/sideways PDF generated from a spreadsheet.
 Its tables are visible when opened in a PDF viewer, but ordinary text
